@@ -14,9 +14,16 @@ A tool to auto-compile & install KCPTUN for SS/SSR on Linux
 ### 详细信息间脚本或者安装结束后看提示。
 
 ### Install
+```Bash
+yum -y install gcc automake autoconf libtool make unzip
+```
 
 ```Bash
-wget --no-check-certificate https://raw.githubusercontent.com/clangcn/onekey-install-shell/master/kcptun_for_ss_ssr/kcptun_for_ss_ssr-install.sh -O ./kcptun_for_ss_ssr-install.sh
+yum install wget
+```
+
+```Bash
+wget --no-check-certificate https://raw.githubusercontent.com/floydaugus/onekey-install-shell/master/kcptun_for_ss_ssr/kcptun_for_ss_ssr-install.sh -O ./kcptun_for_ss_ssr-install.sh
 chmod 700 ./kcptun_for_ss_ssr-install.sh
 ./kcptun_for_ss_ssr-install.sh install
 ```
