@@ -9,7 +9,7 @@ A tool to auto-compile & install KCPTUN for SS/SSR on Linux
 
 已测试平台：CentOS 6/7、Debian、Ubuntu，其他平台未测试。
 
-## 不想写教程了，大家自己安装测试吧。
+## 我自己也不会，哪来的教程
 
 ### 详细信息间脚本或者安装结束后看提示。
 
